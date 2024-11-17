@@ -3,7 +3,11 @@
 This project implements a genetic algorithm to solve the Knight's Tour problem, developed as part of the Problem
 Solving course in Master 1 Visual Computing at USTHB (2023/2024). The Knight's Tour is a sequence of moves where
 a knight visits every square on a chessboard exactly once.
+
+
 ![Knight Moves](https://i.ibb.co/j4W55Dh/image.png "Knight Moves")
+
+
 ## Problem Description
 In chess, a knight moves in an "L-shaped" pattern: two squares in one direction and then one square perpendicular to
 that direction. The challenge is to find a sequence of moves that allows the knight to visit all 64 squares of the
