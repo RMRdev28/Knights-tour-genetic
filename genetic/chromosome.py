@@ -1,5 +1,4 @@
 import random
-import os
 import config
 
 class Chromosome:

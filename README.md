@@ -1,7 +1,7 @@
 # Knight's Tour Solver using Genetic Algorithm
 ## Overview
 This project implements a genetic algorithm to solve the Knight's Tour problem, developed as part of the Problem
-Solving course in Master 1 Visual Computing at USTHB (2023/2024). The Knight's Tour is a sequence of moves where
+Solving course in Master 1 Visual Computing at USTHB (2024/2025). The Knight's Tour is a sequence of moves where
 a knight visits every square on a chessboard exactly once.
 
 

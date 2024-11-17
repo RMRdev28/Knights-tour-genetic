@@ -1,5 +1,6 @@
 import random
 from game.knight import Knight
+import config
 
 class Population:
   def __init__(self, population_size):
@@ -17,8 +18,8 @@ class Population:
       max_fitness_knight = max(self.knights, key=lambda knight: knight.fitness)
       return max_fitness_knight.fitness, max_fitness_knight
 
-  def tournament_selection(self, tournament_size=3):
-      tournament = random.sample(self.knights, tournament_size)
+  def tournament_selection(self):
+      tournament = random.sample(self.knights, config.TOURNAMENT_SIZE)
       tournament.sort(key=lambda knight: knight.fitness, reverse=True)
       return tournament[:2]
 
